@@ -1,0 +1,26 @@
+*{
+    margin: 0.25rem 0.5rem;
+    padding: 0.25rem;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.image-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0.025em;
+}
+
+.image img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.image img:hover{
+    transform: scale(1.2);
+}
